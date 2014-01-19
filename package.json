@@ -1,0 +1,29 @@
+{
+  "name": "unheap-scraper",
+  "version": "0.0.1",
+  "description": "Simple script to scrape the newest images from unheap.com",
+  "main": "unheap-scraper.js",
+  "dependencies": {
+    "cheerio": "~0.13.1",
+    "request": "~2.33.0",
+    "url": "~0.7.9"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drizzt1700/unheap-scraper.git"
+  },
+  "keywords": [
+    "scraper",
+    "unheap"
+  ],
+  "author": "Eli Fitch",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/drizzt1700/unheap-scraper/issues"
+  },
+  "homepage": "https://github.com/drizzt1700/unheap-scraper",
+  "scripts": {
+    "start": "unheap-scraper.js"
+  }
+}
