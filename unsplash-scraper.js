@@ -3,7 +3,7 @@ var cheerio = require('cheerio');
 var url = require('url');
 var exec = require('child_process').exec;
 
-var scrape = function() {
+(function() {
     var dlDir = './downloads';
     var host = 'http://unsplash.com/';
     //grabs all images and stores in array
@@ -21,5 +21,4 @@ var scrape = function() {
             });
         });        
     });
-}
-scrape();
+}());
